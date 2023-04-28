@@ -10,22 +10,15 @@
 "user": ["oecsh5k0xjwEBF-DBWGgcsN3tWR4"],
  
 # 信息配置
-今天是：{{date.DATA}} 
+{{date.DATA}}
+城市:{{city.DATA}}
+天气:{{weather.DATA}}
+最低气温:{{min temperature.DATA}}
+最高气温:{{max temperature.DATA}}
+今天是我们恋爱的第{{love dayDATA}}天
+{{birthday1.DATA}}
+{{birthday2.DATA}}
 
-美好的一天开始啦(づ￣ 3￣)づ
-
-下面开始为宝贝播报{{city.DATA}}的天气(#^.^#)
- 
-今天的天气：{{weather.DATA}} 
-最低气温：{{min_temperature.DATA}} 
-最高气温：{{max_temperature.DATA}} 
-
-今天我们在一起{{love_day.DATA}}天啦 
-距离***的生日还有{{birthday1.DATA}}天
-距离***的生日还有{{birthday2.DATA}}天
-
-# 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "",
-# 金句英文
-"note_en": ""
+今天也要乖乖的多喝水~(*^^*)
+{{note en.DATA}}{{note_ch.DATA}}
 }
